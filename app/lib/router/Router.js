@@ -14,8 +14,8 @@ Router.route('/', {
   name: 'Home'
 });
 
-Router.route('/list', {
-  name: 'ListStuff'
+Router.route('/pueo', {
+  name: 'Pueo'
 });
 
 Router.route('/add', {
