@@ -18,10 +18,13 @@ Router.route('/pueo', {
   name: 'Pueo'
 });
 
-Router.route('/add', {
-  name: 'AddStuff'
+Router.route('/aukahi', {
+  name: 'Aukahi'
 });
 
+Router.route('/kamanuv6', {
+  name: 'KamanuV6'
+});
 
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
