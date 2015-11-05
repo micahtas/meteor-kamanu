@@ -26,6 +26,10 @@ Router.route('/kamanuv6', {
   name: 'KamanuV6'
 });
 
+Router.route('/about', {
+  name: 'About'
+});
+
 Router.route('/stuff/:_id', {
   name: 'EditStuff',
   data: function() { return Stuff.findOne(this.params._id); }
